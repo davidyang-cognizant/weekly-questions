@@ -1,2 +1,0 @@
-insert into question(id, creation_date, author_id, reviewer_id, question_type, question_topic, question_subtopic, question_difficulty, question, choices, answers, education_links)
-values(1, current_time(), '959033', '', 'multipleChoice' , 'android' , 'roomdb' , 3,  'question', ARRAY['one'], ARRAY[0], ARRAY['udemy.com'])

@@ -40,6 +40,14 @@ public class Question {
         this.educationLinks = educationLinks;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public LocalDateTime getCreationDate() {
         return creationDate;
     }
